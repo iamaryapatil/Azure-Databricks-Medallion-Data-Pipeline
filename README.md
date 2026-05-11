@@ -15,7 +15,7 @@ The goal of this project is to demonstrate production-style cloud data engineeri
 ### Stack Used
 
 | Layer | Technology |
-|  |    -|
+|------|-------------|
 Storage | Azure Data Lake Storage Gen2 |
 Compute | Azure Databricks |
 Format | Delta Lake |
