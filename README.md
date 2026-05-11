@@ -71,7 +71,7 @@ Analytics-ready KPI modelling layer for reporting and dashboards.
 
 ADF controls execution order across layers:
 
-Bronze Ingestion -> Silver Transformations -> Gold KPI Modelling
+Bronze Ingestion → Silver Transformations → Gold KPI Modelling
 
 <img width="1000" height="400" alt="Azure Data Factory Pipeline Orchestration" src="https://github.com/user-attachments/assets/6826aecf-6d00-4663-95f1-d95e25b8ba54" />
 
