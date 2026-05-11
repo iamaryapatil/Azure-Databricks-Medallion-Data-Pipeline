@@ -14,7 +14,7 @@ The goal of this project is to demonstrate production-style cloud data engineeri
 
 ## Architecture
 
-![Pipeline Architecture](screenshots/01_adf_pipeline_orchestration.png)
+![Pipeline Architecture](Azure-Databricks-Medallion-Data-Pipeline/screenshots/Bronze Tables.png)
 
 ### Stack Used
 
