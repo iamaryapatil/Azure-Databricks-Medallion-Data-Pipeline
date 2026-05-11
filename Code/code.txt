@@ -1,0 +1,5 @@
+nb1_bronze_ingestion.py
+nb2_silver_transforms.py
+nb3_gold_kpis_final.py
+
+Above mentioned are the file configurations, however, I refrain from uploading those because of credential security.
