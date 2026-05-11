@@ -10,16 +10,12 @@ The pipeline is orchestrated using Azure Data Factory and executed in Azure Data
 
 The goal of this project is to demonstrate production-style cloud data engineering workflows including layered ETL design, Delta Lake processing, orchestration pipelines, and catalog-based data governance.
 
----
-
 ## Architecture
-
-![Pipeline Architecture](Azure-Databricks-Medallion-Data-Pipeline/screenshots/Bronze Tables.png)
 
 ### Stack Used
 
 | Layer | Technology |
-|------|-------------|
+|  |    -|
 Storage | Azure Data Lake Storage Gen2 |
 Compute | Azure Databricks |
 Format | Delta Lake |
@@ -28,7 +24,6 @@ Orchestration | Azure Data Factory |
 Language | Python / PySpark |
 Framework | Medallion Architecture |
 
----
 
 ## Medallion Architecture Design
 
@@ -47,9 +42,8 @@ Features:
 
 Screenshot:
 
-![Bronze Tables](screenshots/04_bronze_tables_registered.png)
+<img width="1000" height="400" alt="Bronze Tables" src="https://github.com/user-attachments/assets/86e99707-d562-4082-9f4a-f288b93589af" />
 
----
 
 ### Silver Layer
 
@@ -65,27 +59,23 @@ Transformations applied:
 - schema alignment across datasets
 
 Validation:
+<img width="1000" height="400" alt="Silver Tables" src="https://github.com/user-attachments/assets/49bd30f3-89ea-4cdc-94fa-070da776533d" />
 
-![Silver Validation](screenshots/07_silver_layer_validation.png)
-
----
 
 ### Gold Layer
 
 Analytics-ready KPI modelling layer for reporting and dashboards.
 
+<img width="1000" height="400" alt="Gold Tables" src="https://github.com/user-attachments/assets/2f06e45e-ddbc-4c79-99c0-7440bfe2181e" />
 
-Example:
-
-![Gold Tables](screenshots/06_gold_tables_registered.png)
-
----
 
 ## Azure Data Factory Orchestration Pipeline
 
 ADF controls execution order across layers:
 
 Bronze Ingestion -> Silver Transformations -> Gold KPI Modelling
+
+<img width="1000" height="400" alt="Azure Data Factory Pipeline Orchestration" src="https://github.com/user-attachments/assets/6826aecf-6d00-4663-95f1-d95e25b8ba54" />
 
 ## Example Dataset Processed
 
@@ -98,7 +88,6 @@ Pipeline processes multiple migration datasets including:
 - visitor visas
 - overseas arrivals and departures
 
----
 
 ## Engineering Highlights
 
@@ -114,4 +103,4 @@ This pipeline demonstrates:
 -  KPI modelling layer construction  
 -  Multi-dataset ingestion automation  
 
----
+ 
