@@ -10,8 +10,6 @@ The pipeline is orchestrated using Azure Data Factory and executed in Azure Data
 
 The goal of this project is to demonstrate production-style cloud data engineering workflows including layered ETL design, Delta Lake processing, orchestration pipelines, and catalog-based data governance.
 
-## Architecture
-
 ### Stack Used
 
 | Layer | Technology |
